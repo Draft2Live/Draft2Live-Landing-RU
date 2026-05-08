@@ -93,7 +93,7 @@ function VideoPoster() {
   const t = getTranslations('hero');
   const [playing, setPlaying] = useState(false);
   const videoRef = useRef<HTMLVideoElement>(null);
-  const videoSrc = `/videos/demo-en.mp4`;
+  const videoSrc = `/videos/demo-ru.mp4`;
 
   const handlePlay = () => {
     setPlaying(true);
